@@ -1,0 +1,24 @@
+{
+  "name": "amazon-product-map",
+  "version": "0.0.0",
+  "description": "Maps your Crystallize Products in the Amazon Marketplace",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrystallizeAPI/amazon-product-map.git"
+  },
+  "keywords": [
+    "AWS",
+    "Amazon",
+    "Crystallize"
+  ],
+  "author": "Stavros Sotiropoulos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CrystallizeAPI/amazon-product-map/issues"
+  },
+  "homepage": "https://github.com/CrystallizeAPI/amazon-product-map#readme"
+}
