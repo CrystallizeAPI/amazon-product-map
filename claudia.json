@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "amazon-product-map-executor",
+    "name": "amazon-product-map",
+    "region": "eu-central-1"
+  },
+  "api": {
+    "id": "hgpino1cob",
+    "module": "index"
+  }
+}

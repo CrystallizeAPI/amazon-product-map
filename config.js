@@ -1,0 +1,21 @@
+const {
+  AMAZON_FEED_URL,
+  MWS_AUTH_TOKEN,
+  AWS_ACCESS_KEY_ID,
+  SELLER_ID,
+  ACTION = 'SubmitFeed',
+  SIG_METHOD = 'HmacSHA256',
+  SIG_VERSION = '2',
+  API_VERSION = '2009-01-01'
+} = process.env
+
+module.exports = {
+  AMAZON_FEED_URL,
+  MWS_AUTH_TOKEN,
+  AWS_ACCESS_KEY_ID,
+  SELLER_ID,
+  ACTION,
+  SIG_METHOD,
+  SIG_VERSION,
+  API_VERSION
+}
