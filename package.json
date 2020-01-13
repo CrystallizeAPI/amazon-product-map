@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "preversion": "yarn run lint && yarn run test",
-    "lint": "standard"
+    "lint": "standard",
+    "create": "claudia create --region eu-central-1 --no-optional-dependencies --api-module index"
   },
   "husky": {
     "hooks": {
